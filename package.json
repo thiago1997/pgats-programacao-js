@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
 "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "prova": "mocha"
+  "prova": "for f in exercicios/*.js; do node \"$f\"; done"
 },
   "keywords": [],
   "author": "",
