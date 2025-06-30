@@ -14,5 +14,8 @@ jobs:
         with:
           node-version: 22.x
 
+      - name: Instalando dependências
+        run: npm install  
+        
       - name: Executando Testes prova
         run: npm run prova
